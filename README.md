@@ -43,8 +43,8 @@ Configure the below environment variables:
 export AWS_BUCKET_NAME=YOUR_S3_BUCKET_NAME
 export BEDROCK_KNOWLEDGE_BASE_ID=YOUR_KNOWLEDGE_BASE_ID
 
-export AWS_REGION=AWS_REGION (Optional. Default value: us-east-1)
-export AWS_S3_PREFIX=YOUR_S3_PREFIX (Optional. Default value: policy-eval-demo)
+export AWS_DEFAULT_REGION=AWS_REGION (Optional. Default value: us-east-1)
+export S3_PREFIX=YOUR_S3_PREFIX (Optional. Default value: policy-eval-demo)
 ```
 Set up the following environment variables if you wish to enable Cognito User Pool for user login. The application will ignore login if you leave them null.
 ```
